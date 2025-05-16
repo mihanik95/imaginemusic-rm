@@ -1,0 +1,48 @@
+{
+    "album_code": "IMG000",
+    "album_name": "Rmtest",
+    "album_path_negotovoe": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_\u041d\u0415\u0413\u041e\u0422\u041e\u0412\u042b\u0415/Rmtest",
+    "album_path_aiff": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS AIFF/_IMG PART 13/IMG000 Rmtest",
+    "album_path_mp3": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS MP3/_IMG PART 13/IMG000 Rmtest",
+    "stems_path": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS AIFF/_IMG PART 13/IMG000 Rmtest/Stems",
+    "tracks": [
+        {
+            "track_number": "01",
+            "track_name": "Test One",
+            "composers": [
+                "Denis Kaydalov"
+            ],
+            "track_bpm": "129",
+            "duration": 129.82,
+            "mastered_file": "IMG000 - Rmtest - 01 Test One.aif",
+            "stems_folder": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS AIFF/_IMG PART 13/IMG000 Rmtest/Stems/IMG000 - Rmtest - 01 Test One",
+            "stems": [
+                "IMG000 - Rmtest - 01 Test One STRINGS.aiff",
+                "IMG000 - Rmtest - 01 Test One WOODWINDS.aiff"
+            ],
+            "matched_composers": [
+                "Denis Sergeevich Kaydalov"
+            ]
+        },
+        {
+            "track_number": "02",
+            "track_name": "Test Two",
+            "composers": [
+                "Aleksandr Khmelnitske"
+            ],
+            "track_bpm": "130",
+            "duration": 129.82,
+            "mastered_file": "IMG000 - Rmtest - 02 Test Two.aif",
+            "stems_folder": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS AIFF/_IMG PART 13/IMG000 Rmtest/Stems/IMG000 - Rmtest - 02 Test Two",
+            "stems": [
+                "IMG000 - Rmtest - 02 Test Two STRINGS.aiff",
+                "IMG000 - Rmtest - 02 Test Two HITS AND DRUMS.aiff"
+            ],
+            "matched_composers": [
+                "Aleksandar nan Dimitrijevic"
+            ]
+        }
+    ],
+    "cover_file": "/Users/mihanik95/Library/CloudStorage/Dropbox/Imagine Music/_ALL ALBUMS AIFF/_IMG PART 13/IMG000 Rmtest/IMG000 Rmtest.jpg",
+    "album_description": "213312123"
+}

@@ -1,0 +1,752 @@
+{
+    "composers": {
+        "Tapani Mikael Kuusniemi": {
+            "first_name": "Tapani",
+            "middle_name": "Mikael",
+            "last_name": "Kuusniemi",
+            "society": "TEOSTO",
+            "ipi": "469492600",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Phillip A Lober": {
+            "first_name": "Phillip A",
+            "middle_name": "",
+            "last_name": "Lober",
+            "society": "ASCAP",
+            "ipi": "631764840",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Michael Afanasyev": {
+            "first_name": "Michael",
+            "middle_name": "",
+            "last_name": "Afanasyev",
+            "society": "BMI",
+            "ipi": "769546190",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Christian Fernando Perucchi": {
+            "first_name": "Christian",
+            "middle_name": "Fernando",
+            "last_name": "Perucchi",
+            "society": "SADAIC",
+            "ipi": "761095341",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Santiago Linietsky": {
+            "first_name": "Santiago",
+            "middle_name": "",
+            "last_name": "Linietsky",
+            "society": "SADAIC",
+            "ipi": "761094246",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Sergey Zubarev": {
+            "first_name": "Sergey",
+            "middle_name": "",
+            "last_name": "Zubarev",
+            "society": "BMI",
+            "ipi": "771004275",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Alexey Viktorovich Soloviev": {
+            "first_name": "Alexey",
+            "middle_name": "Viktorovich",
+            "last_name": "Soloviev",
+            "society": "BMI",
+            "ipi": "771624825",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Kyle J Kniceley": {
+            "first_name": "Kyle J",
+            "middle_name": "",
+            "last_name": "Kniceley",
+            "society": "BMI",
+            "ipi": "637622831",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Uti Naewsujarit": {
+            "first_name": "Uti",
+            "middle_name": "",
+            "last_name": "Naewsujarit",
+            "society": "TONO",
+            "ipi": "768660299",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Dylan Christopher Jones": {
+            "first_name": "Dylan",
+            "middle_name": "Christopher",
+            "last_name": "Jones",
+            "society": "BMI",
+            "ipi": "745724817",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Dustin Krizan": {
+            "first_name": "Dustin",
+            "middle_name": "",
+            "last_name": "Krizan",
+            "society": "SOCAN",
+            "ipi": "764578496",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Alexey Soloviev": {
+            "first_name": "Alexey",
+            "middle_name": "",
+            "last_name": "Soloviev",
+            "society": "BMI",
+            "ipi": "771624825",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Thomas Adam Habuda": {
+            "first_name": "Thomas Adam",
+            "middle_name": "",
+            "last_name": "Habuda",
+            "society": "BMI",
+            "ipi": "772945992",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Iliya Zaki Bin Aziz": {
+            "first_name": "Iliya",
+            "middle_name": "Zaki",
+            "last_name": "Bin Aziz",
+            "society": "BMI",
+            "ipi": "735103669",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Thomas Habuda": {
+            "first_name": "Thomas",
+            "middle_name": "",
+            "last_name": "Habuda",
+            "society": "BMI",
+            "ipi": "769546190",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Louis Viallet": {
+            "first_name": "Louis",
+            "middle_name": "",
+            "last_name": "Viallet",
+            "society": "BMI",
+            "ipi": "777091114",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Vakhtang Jijeisvili": {
+            "first_name": "Vakhtang",
+            "middle_name": "",
+            "last_name": "Jijeisvili",
+            "society": "KODA",
+            "ipi": "764428224",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Jesus Manuel Martin Prieto": {
+            "first_name": "Jesus",
+            "middle_name": "Manuel",
+            "last_name": "Martin Prieto",
+            "society": "SGAE",
+            "ipi": "522998423",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Arthur Baryshev": {
+            "first_name": "Arthur",
+            "middle_name": "",
+            "last_name": "Baryshev",
+            "society": "BMI",
+            "ipi": "772484903",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Jean Emmanuel Gabriel Baptist Raynaud": {
+            "first_name": "Jean",
+            "middle_name": "Emmanuel Gabriel Baptist",
+            "last_name": "Raynaud",
+            "society": "BMI",
+            "ipi": "734692813",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Nicolas Jean George Felix": {
+            "first_name": "Nicolas",
+            "middle_name": "Jean George",
+            "last_name": "Felix",
+            "society": "BMI",
+            "ipi": "763133452",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Salvador Casais": {
+            "first_name": "Salvador",
+            "middle_name": "",
+            "last_name": "Casais",
+            "society": "SACEM",
+            "ipi": "751973023",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Christian Ugenti": {
+            "first_name": "Christian",
+            "middle_name": "",
+            "last_name": "Ugenti",
+            "society": "BMI",
+            "ipi": "542044486",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "William Oliver Woodwright": {
+            "first_name": "William",
+            "middle_name": "Oliver",
+            "last_name": "Woodwright",
+            "society": "PRS",
+            "ipi": "799355080",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Massimiliano Foti": {
+            "first_name": "Massimiliano",
+            "middle_name": "",
+            "last_name": "Foti",
+            "society": "BMI",
+            "ipi": "754147731",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Jacopo Cicatiello": {
+            "first_name": "Jacopo",
+            "middle_name": "",
+            "last_name": "Cicatiello",
+            "society": "BMI",
+            "ipi": "770066643",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Claudie Anna Mackula Theriault": {
+            "first_name": "Claudie",
+            "middle_name": "Anna",
+            "last_name": "Mackula Theriault",
+            "society": "SOCAN",
+            "ipi": "744686700",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Christopher Kenneth Davey": {
+            "first_name": "Christopher",
+            "middle_name": "Kenneth",
+            "last_name": "Davey",
+            "society": "PRS",
+            "ipi": "718437528",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Christer Lennart Wibert": {
+            "first_name": "Christer",
+            "middle_name": "Lennart",
+            "last_name": "Wibert",
+            "society": "STIM",
+            "ipi": "715736142",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Eric Alexander Tannery": {
+            "first_name": "Eric",
+            "middle_name": "Alexander",
+            "last_name": "Tannery",
+            "society": "BMI",
+            "ipi": "642713948",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Mike Gunn": {
+            "first_name": "Mike",
+            "middle_name": "",
+            "last_name": "Gunn",
+            "society": "PRS",
+            "ipi": "742054074",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Christoffer Bror Moe Ditlevsen": {
+            "first_name": "Christoffer",
+            "middle_name": "Bror",
+            "last_name": "Moe Ditlevsen",
+            "society": "STIM",
+            "ipi": "719961898",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Lara Ausensi": {
+            "first_name": "Lara",
+            "middle_name": "",
+            "last_name": "Ausensi",
+            "society": "BMI",
+            "ipi": "762809711",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Apollon De Moura": {
+            "first_name": "Apollon",
+            "middle_name": "",
+            "last_name": "De Moura",
+            "society": "BMI",
+            "ipi": "808846702",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Bryn Bording Mathieu": {
+            "first_name": "Bryn",
+            "middle_name": "Bording",
+            "last_name": "Mathieu",
+            "society": "ASCAP",
+            "ipi": "127447081",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Daniel Stanczykievicz": {
+            "first_name": "Daniel",
+            "middle_name": "",
+            "last_name": "Stanczykievicz",
+            "society": "BMI",
+            "ipi": "809395410",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Sean Patrick Pack": {
+            "first_name": "Sean",
+            "middle_name": "Patrick",
+            "last_name": "Pack",
+            "society": "BMI",
+            "ipi": "702579348",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Dmitriy Alexandrovich Mityukhin": {
+            "first_name": "Dmitriy",
+            "middle_name": "Alexandrovich",
+            "last_name": "Mityukhin",
+            "society": "BMI",
+            "ipi": "781973691",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Nicolas Jean Georges Felix": {
+            "first_name": "Nicolas",
+            "middle_name": "Jean Georges",
+            "last_name": "Felix",
+            "society": "BMI",
+            "ipi": "763133452",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Amir Gurvitz": {
+            "first_name": "Amir",
+            "middle_name": "",
+            "last_name": "Gurvitz",
+            "society": "PRS",
+            "ipi": "772821818",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Kevin Robert Edge": {
+            "first_name": "Kevin",
+            "middle_name": "Robert",
+            "last_name": "Edge",
+            "society": "PRS",
+            "ipi": "589662093",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Tigran Papazyan": {
+            "first_name": "Tigran",
+            "middle_name": "",
+            "last_name": "Papazyan",
+            "society": "BMI",
+            "ipi": "814715641",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Maxim Sergeevich Panteleev": {
+            "first_name": "Maxim",
+            "middle_name": "Sergeevich",
+            "last_name": "Panteleev",
+            "society": "BMI",
+            "ipi": "827737014",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Nikolay Sushko": {
+            "first_name": "Nikolay",
+            "middle_name": "",
+            "last_name": "Sushko",
+            "society": "BMI",
+            "ipi": "850609830",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Norman Wille": {
+            "first_name": "Norman",
+            "middle_name": "",
+            "last_name": "Wille",
+            "society": "BMI",
+            "ipi": "717163745",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Sebastian Jakoby": {
+            "first_name": "Sebastian",
+            "middle_name": "",
+            "last_name": "Jakoby",
+            "society": "BMI",
+            "ipi": "839899159",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Gleb Sheykin": {
+            "first_name": "Gleb",
+            "middle_name": "",
+            "last_name": "Sheykin",
+            "society": "BMI",
+            "ipi": "834632829",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "David Scott Butler": {
+            "first_name": "David",
+            "middle_name": "Scott",
+            "last_name": "Butler",
+            "society": "BMI",
+            "ipi": "608048262",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Nathan James McAllister": {
+            "first_name": "Nathan",
+            "middle_name": "James",
+            "last_name": "McAllister",
+            "society": "BMI",
+            "ipi": "849305418",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Daniel Stanczykiewicz": {
+            "first_name": "Daniel",
+            "middle_name": "",
+            "last_name": "Stanczykiewicz",
+            "society": "BMI",
+            "ipi": "809395410",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Florian Paul Sturm": {
+            "first_name": "Florian",
+            "middle_name": "Paul",
+            "last_name": "Sturm",
+            "society": "GEMA",
+            "ipi": "897800094",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Almaz Sakhipov": {
+            "first_name": "Almaz",
+            "middle_name": "",
+            "last_name": "Sakhipov",
+            "society": "BMI",
+            "ipi": "816333255",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Evgeny Kokurin": {
+            "first_name": "Evgeny",
+            "middle_name": "",
+            "last_name": "Kokurin",
+            "society": "BMI",
+            "ipi": "874217618",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Valentin Kallaur": {
+            "first_name": "Valentin",
+            "middle_name": "",
+            "last_name": "Kallaur",
+            "society": "BMI",
+            "ipi": "368985097",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Aleksandar Dimitrijevic": {
+            "first_name": "Aleksandar",
+            "middle_name": "",
+            "last_name": "Dimitrijevic",
+            "society": "TONO",
+            "ipi": "619910338",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Jascha Heidicke": {
+            "first_name": "Jascha",
+            "middle_name": "",
+            "last_name": "Heidicke",
+            "society": "BMI",
+            "ipi": "879833761",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Sergiu-Dan Muresan": {
+            "first_name": "Sergiu-Dan",
+            "middle_name": "",
+            "last_name": "Muresan",
+            "society": "PRS",
+            "ipi": "462035873",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Apollon de Moura": {
+            "first_name": "Apollon",
+            "middle_name": "",
+            "last_name": "de Moura",
+            "society": "BMI",
+            "ipi": "808846604",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Petr Brabich": {
+            "first_name": "Petr",
+            "middle_name": "",
+            "last_name": "Brabich",
+            "society": "BMI",
+            "ipi": "372373751",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Murat Nagoev": {
+            "first_name": "Murat",
+            "middle_name": "",
+            "last_name": "Nagoev",
+            "society": "BMI",
+            "ipi": "895411116",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Nikita Yamov": {
+            "first_name": "Nikita",
+            "middle_name": "",
+            "last_name": "Yamov",
+            "society": "BMI",
+            "ipi": "1032395682",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Stanislav Barantsov": {
+            "first_name": "Stanislav",
+            "middle_name": "",
+            "last_name": "Barantsov",
+            "society": "BMI",
+            "ipi": "1058508257",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Viktor Khliustov": {
+            "first_name": "Viktor",
+            "middle_name": "",
+            "last_name": "Khliustov",
+            "society": "BMI",
+            "ipi": "1068084157",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Dmitry Polukhtin": {
+            "first_name": "Dmitry",
+            "middle_name": "",
+            "last_name": "Polukhtin",
+            "society": "BMI",
+            "ipi": "767231821",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Andrey Bely": {
+            "first_name": "Andrey",
+            "middle_name": "",
+            "last_name": "Bely",
+            "society": "BMI",
+            "ipi": "1058508257",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Alexey Stepanenkov": {
+            "first_name": "Alexey",
+            "middle_name": "",
+            "last_name": "Stepanenkov",
+            "society": "BMI",
+            "ipi": "1010462819",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Roman Trestcov": {
+            "first_name": "Roman",
+            "middle_name": "",
+            "last_name": "Trestcov",
+            "society": "ASCAP",
+            "ipi": "1029104301",
+            "publisher_key": "Imagine Music Publishing RU"
+        },
+        "Ihor Fedyk": {
+            "first_name": "Ihor",
+            "middle_name": "",
+            "last_name": "Fedyk",
+            "society": "BMI",
+            "ipi": "550791499",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Alexander Cherevkov": {
+            "first_name": "Alexander",
+            "middle_name": "",
+            "last_name": "Cherevkov",
+            "society": "BMI",
+            "ipi": "1067694717",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Irinel Ciucu": {
+            "first_name": "Irinel",
+            "middle_name": "",
+            "last_name": "Ciucu",
+            "society": "TONO",
+            "ipi": "831096253",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Mykhailo Kuzhba": {
+            "first_name": "Mykhailo",
+            "middle_name": "",
+            "last_name": "Kuzhba",
+            "society": "BMI",
+            "ipi": "1076659717",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Victor Vidot Torres": {
+            "first_name": "Victor",
+            "middle_name": "Vidot",
+            "last_name": "Torres",
+            "society": "BMI",
+            "ipi": "868981755",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Ivan Selivanov": {
+            "first_name": "Ivan",
+            "middle_name": "",
+            "last_name": "Selivanov",
+            "society": "BMI",
+            "ipi": "385410264",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Andrii Poradovskyi": {
+            "first_name": "Andrii",
+            "middle_name": "",
+            "last_name": "Poradovskyi",
+            "society": "BMI",
+            "ipi": "1055591064",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Maks Simchenko": {
+            "first_name": "Maks",
+            "middle_name": "",
+            "last_name": "Simchenko",
+            "society": "GEMA",
+            "ipi": "849169983",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Kirill Gorokhov": {
+            "first_name": "Kirill",
+            "middle_name": "",
+            "last_name": "Gorokhov",
+            "society": "BMI",
+            "ipi": "550701114",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Dmitriy Sabirzanov": {
+            "first_name": "Dmitriy",
+            "middle_name": "",
+            "last_name": "Sabirzanov",
+            "society": "BMI",
+            "ipi": "1102136919",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Ruslan Lepatov": {
+            "first_name": "Ruslan",
+            "middle_name": "",
+            "last_name": "Lepatov",
+            "society": "BMI",
+            "ipi": "550653174",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Alexander Anatolievich Khmelnitsky": {
+            "first_name": "Alexander",
+            "middle_name": "Anatolievich",
+            "last_name": "Khmelnitsky",
+            "society": "BMI",
+            "ipi": "1177444242",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Alena Alexandrovna Eremicheva": {
+            "first_name": "Alena",
+            "middle_name": "Alexandrovna",
+            "last_name": "Eremicheva",
+            "society": "RAO",
+            "ipi": "1183922248",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Sergey Shagovaleev": {
+            "first_name": "Sergey",
+            "middle_name": "",
+            "last_name": "Shagovaleev",
+            "society": "BMI",
+            "ipi": "1187369315",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Denis Sergeevich Kaydalov": {
+            "first_name": "Denis",
+            "middle_name": "Sergeevich",
+            "last_name": "Kaydalov",
+            "society": "BMI",
+            "ipi": "1152744859",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Aliaksandr Sakalou": {
+            "first_name": "Aliaksandr",
+            "middle_name": "",
+            "last_name": "Sakalou",
+            "society": "BMI",
+            "ipi": "1056737446",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Vladimir Hudec": {
+            "first_name": "Vladimir",
+            "middle_name": "",
+            "last_name": "Hudec",
+            "society": "BMI",
+            "ipi": "564872316",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Bojan Katalina": {
+            "first_name": "Bojan",
+            "middle_name": "",
+            "last_name": "Katalina",
+            "society": "HDS-ZAMP",
+            "ipi": "1151179476",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Paulo Arce Alampay": {
+            "first_name": "Paulo",
+            "middle_name": "Arce",
+            "last_name": "Alampay",
+            "society": "BMI",
+            "ipi": "1187182534",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Rachael Victoria Gillespie": {
+            "first_name": "Rachael",
+            "middle_name": "Victoria",
+            "last_name": "Gillespie",
+            "society": "PRS",
+            "ipi": "1228115483",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Aliaksei Yukhnevich": {
+            "first_name": "Aliaksei",
+            "middle_name": "",
+            "last_name": "Yukhnevich",
+            "society": "BMI",
+            "ipi": "1183189733",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Julio Reyes": {
+            "first_name": "Julio",
+            "middle_name": "",
+            "last_name": "Reyes",
+            "society": "BMI",
+            "ipi": "1090529854",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Leonid Malinin": {
+            "first_name": "Leonid",
+            "middle_name": "",
+            "last_name": "Malinin",
+            "society": "BMI",
+            "ipi": "1173283459",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Andrey Victorivich Bely": {
+            "first_name": "Andrey",
+            "middle_name": "Victorivich",
+            "last_name": "Bely",
+            "society": "BMI",
+            "ipi": "769546190",
+            "publisher_key": "Imagine International Music Publishing"
+        },
+        "Sergey Kirichenko": {
+            "first_name": "Sergey",
+            "middle_name": "",
+            "last_name": "Kirichenko",
+            "society": "BMI",
+            "ipi": "1050181801",
+            "publisher_key": "Imagine International Music Publishing"
+        }
+    },
+    "publishers": {
+        "Imagine Music Publishing RU": {
+            "publisher_name": "Imagine Music Publishing RU",
+            "publisher_society": "ASCAP",
+            "publisher_ipi": "160790865"
+        },
+        "Imagine International Music Publishing": {
+            "publisher_name": "Imagine International Music Publishing",
+            "publisher_society": "BMI",
+            "publisher_ipi": "819108734"
+        }
+    }
+}
