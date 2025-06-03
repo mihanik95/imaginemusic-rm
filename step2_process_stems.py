@@ -14,6 +14,7 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui  import QCursor
 from PyQt6.QtMultimedia import QSoundEffect
 from PyQt6.QtCore import QUrl
+from util_path import rsrc
 
 SESSION_FILE     = "session.json"
 IGNORE_KEYWORDS  = ["mix", "full mix", "unmastered", "mastered", "master", "bpm"]
@@ -214,7 +215,7 @@ class Step2ProcessStems(QWidget):
         self.next_btn.setEnabled(True)
         self.next_btn.setStyleSheet("background-color: #388E3C; color: white; font-weight: bold;")
         self.next_step_sound = QSoundEffect()
-        self.next_step_sound.setSource(QUrl.fromLocalFile("notify.wav"))
+        self.next_step_sound.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         self.next_step_sound.setVolume(0.5)
         self.next_step_sound.play()
 

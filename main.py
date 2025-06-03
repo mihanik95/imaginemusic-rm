@@ -13,20 +13,7 @@ from composer_list_page     import ComposerListPage
 from step_prepare_step1     import StepPrepareStep1
 
 from util_json import load_json_safe
-
-
-# ───────────────────────── util: путь к ресурсам ──────────────────────────
-def rsrc(rel_path: str) -> str:
-    """
-    Возвращает абсолютный путь к ресурсу:
-    • при запуске из исходников — рядом с .py  
-    • в упакованном .app / .exe — внутри каталога Resources
-    """
-    if getattr(sys, 'frozen', False):                # PyInstaller
-        base = sys._MEIPASS                         # type: ignore
-    else:
-        base = os.path.abspath(os.path.dirname(__file__))
-    return os.path.join(base, rel_path)
+from util_path import rsrc
 
 
 CONFIG_FILE = "config.json"                         # имя не меняем — используем rsrc()

@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtCore import Qt, QUrl
 from PyQt6.QtMultimedia import QSoundEffect
+from util_path import rsrc
 
 
 class StepFinals(QWidget):
@@ -54,7 +55,7 @@ class StepFinals(QWidget):
 
         # ── звук ──
         self.sound = QSoundEffect(self)
-        self.sound.setSource(QUrl.fromLocalFile("bruh.wav"))  # WAV/OGG файл
+        self.sound.setSource(QUrl.fromLocalFile(rsrc("bruh.wav")))  # WAV/OGG файл
         self.sound.setVolume(0.5)
         self.sound.play()
 

@@ -7,6 +7,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt
 from PyQt6.QtMultimedia import QSoundEffect
 from PyQt6.QtCore import QUrl
+from util_path import rsrc
 
 SESSION_FILE = "session.json"
 CONFIG_FILE  = "config.json"
@@ -86,9 +87,9 @@ class Step4AddCover(QWidget):
             self.log("❌ Недостаточно данных в session.json."); return
 
         # 2) config.json → папка обложек
-        if not os.path.exists(CONFIG_FILE):
+        if not os.path.exists(rsrc(CONFIG_FILE)):
             self._err("Ошибка", "Нет config.json!"); return
-        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+        with open(rsrc(CONFIG_FILE), "r", encoding="utf-8") as f:
             covers_root = json.load(f).get("_ALL ALBUMS COVERS", "")
         if not covers_root or not os.path.isdir(covers_root):
             self._err("Ошибка", f"Папка обложек не найдена:\n{covers_root}"); return
@@ -120,7 +121,7 @@ class Step4AddCover(QWidget):
         self.next_btn.setEnabled(True)
         self.next_btn.setStyleSheet("background-color: #388E3C; color: white; font-weight: bold;")
         self.next_step_sound = QSoundEffect()
-        self.next_step_sound.setSource(QUrl.fromLocalFile("notify.wav"))
+        self.next_step_sound.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         self.next_step_sound.setVolume(0.5)
         self.next_step_sound.play()
 
