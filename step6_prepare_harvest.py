@@ -9,6 +9,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore         import Qt, QUrl
 from PyQt6.QtMultimedia   import QSoundEffect
 from PyQt6.QtGui          import QDesktopServices
+from util_path import rsrc
 
 
 SESSION_FILE = "session.json"
@@ -85,9 +86,9 @@ class Step6PrepareHarvest(QWidget):
         self.log_out.append(text)
 
     def load_config(self):
-        if not os.path.exists(CONFIG_FILE):
+        if not os.path.exists(rsrc(CONFIG_FILE)):
             self.show_error("Ошибка", "config.json не найден. Повторите предыдущие шаги."); return
-        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+        with open(rsrc(CONFIG_FILE), "r", encoding="utf-8") as f:
             self.config = json.load(f)
 
     def _err(self, title: str, msg: str):
@@ -225,7 +226,7 @@ class Step6PrepareHarvest(QWidget):
             "background-color:#388E3C; color:white; font-weight:bold;")
         # пинг
         self._snd = QSoundEffect()
-        self._snd.setSource(QUrl.fromLocalFile("notify.wav"))
+        self._snd.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         self._snd.setVolume(0.5)
         self._snd.play()
 

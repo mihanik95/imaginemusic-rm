@@ -9,6 +9,7 @@ from PyQt6.QtMultimedia import QSoundEffect
 from PyQt6.QtCore import QUrl
 
 from util_json import load_json_safe
+from util_path import rsrc
 
 CONFIG_FILE  = "config.json"
 SESSION_FILE = "session.json"
@@ -95,8 +96,8 @@ class Step1CreateStructure(QWidget):
 
     # ───────── настройки / альбомы ─────────
     def load_settings(self):
-        cfg_path = CONFIG_FILE                         # либо rsrc(CONFIG_FILE)
-        self.paths = load_json_safe(cfg_path, {})      # ← одно слово
+        cfg_path = rsrc(CONFIG_FILE)
+        self.paths = load_json_safe(cfg_path, {})
 
     def load_albums(self):
         self.album_list.clear()
@@ -181,7 +182,7 @@ class Step1CreateStructure(QWidget):
         self.next_button.setStyleSheet("background-color: #388E3C; color: white; font-weight: bold;")
         # проигрываем звук
         self.next_step_sound = QSoundEffect()
-        self.next_step_sound.setSource(QUrl.fromLocalFile("notify.wav"))
+        self.next_step_sound.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         self.next_step_sound.setVolume(0.5)
         self.next_step_sound.play()
 

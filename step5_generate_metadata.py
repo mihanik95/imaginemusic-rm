@@ -10,6 +10,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore        import Qt, QDate, QUrl
 from PyQt6.QtGui         import QDesktopServices
 from PyQt6.QtMultimedia  import QSoundEffect
+from util_path import rsrc
 
 
 SESSION_FILE        = "session.json"
@@ -99,23 +100,23 @@ class Step5GenerateMetadata(QWidget):
             self.ses = json.load(f)
 
         # config
-        if not os.path.exists(CONFIG_FILE):
+        if not os.path.exists(rsrc(CONFIG_FILE)):
             self._err("Нет config.json."); return
-        with open(CONFIG_FILE,"r",encoding="utf-8") as f:
+        with open(rsrc(CONFIG_FILE),"r",encoding="utf-8") as f:
             cfg = json.load(f)
         self.meta_dir = cfg.get("_ALL ALBUMS METADATA","")
         if not os.path.isdir(self.meta_dir):
             self._err(f"Папка METADATA не найдена:\n{self.meta_dir}"); return
 
         # базы
-        with open(COMPOSER_DB_FILE,"r",encoding="utf-8") as f:
+        with open(rsrc(COMPOSER_DB_FILE),"r",encoding="utf-8") as f:
             db = json.load(f)
         self.composers  = db.get("composers",{})
         self.publishers = db.get("publishers",{})
 
         self.isrc_db = {}
-        if os.path.exists(ISRC_DB_FILE):
-            with open(ISRC_DB_FILE,"r",encoding="utf-8") as f:
+        if os.path.exists(rsrc(ISRC_DB_FILE)):
+            with open(rsrc(ISRC_DB_FILE),"r",encoding="utf-8") as f:
                 self.isrc_db = json.load(f)
         self.last_isrc = self._find_last_isrc()
 
@@ -225,7 +226,7 @@ class Step5GenerateMetadata(QWidget):
             rows.append([rd.get(c,"") for c in cols])
 
         # записываем isrc-базу
-        with open(ISRC_DB_FILE,"w",encoding="utf-8") as f:
+        with open(rsrc(ISRC_DB_FILE),"w",encoding="utf-8") as f:
             json.dump(self.isrc_db,f,indent=4)
 
         # xlsx-файл альбома
@@ -291,7 +292,7 @@ class Step5GenerateMetadata(QWidget):
         self.btn_next.setEnabled(True)
         self.btn_next.setStyleSheet("background:#388E3C;color:white;font-weight:bold;")
 
-        snd = QSoundEffect(self); snd.setSource(QUrl.fromLocalFile("notify.wav"))
+        snd = QSoundEffect(self); snd.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         snd.setVolume(0.5); snd.play()
 
         self._info("Синхронизация выполнена (бэкап создан).")

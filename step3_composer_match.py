@@ -9,6 +9,7 @@ from PyQt6.QtGui  import QCursor
 from add_composer_dialog import AddComposerDialog
 from PyQt6.QtMultimedia import QSoundEffect
 from PyQt6.QtCore import QUrl
+from util_path import rsrc
 
 DATABASES_FOLDER     = "_DATABASES"
 COMPOSER_DB_FILENAME = "composer_database.json"
@@ -138,7 +139,7 @@ class Step3ComposerMatch(QWidget):
             "background-color:#388E3C; color:white; font-weight:bold;")
 
         self.next_step_sound = QSoundEffect()
-        self.next_step_sound.setSource(QUrl.fromLocalFile("notify.wav"))
+        self.next_step_sound.setSource(QUrl.fromLocalFile(rsrc("notify.wav")))
         self.next_step_sound.setVolume(0.5)
         self.next_step_sound.play()
 
